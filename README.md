@@ -55,15 +55,15 @@ After removing useless columns for analysis:
 
 Which merchant sold the most?
 
-![](imgs/)
+![](imgs/insight_1.png)
 
 What is the best selling brand?
 
-![](imgs/)
+![](imgs/insight_3.png)
 
 Which months sell the most?
 
-![](imgs/)
+![](imgs/insight_5.png)
 
 # 5.0 Machine Learning
 
@@ -73,15 +73,17 @@ The method of least squares is a statistical technique used to find the best str
 
 Through this method, we got the price_elasticity, price_mean, quantity_mean, intercept, slope, rsquared	and p_value of the products.
 
-![](imgs/)
+![](imgs/results_all.png)
 
-![](imgs/)
+Statistics summary for unique example:
+
+![](imgs/results_unique.png)
 
 # 6.0 Business results
 
 Here are the business results for each product:
 
-![](imgs/)
+![](imgs/buss_results.png)
 
 # 7.0 Streamlit
 
