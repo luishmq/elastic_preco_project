@@ -13,6 +13,8 @@ This elasticity can be classified as elastic, inelastic and unitary price elasti
 
 The idea of ​​the project is to study the concept of price elasticity and, therefore, the deep relationship between demand and price of products. In addition, it seeks to predict how much it is acceptable to increase/decrease the value of products, impacting demand, to try to find out if we would be able to increase revenue.
 
+The results can be viewed on a page created in streamlit.
+
 The dataset can be found in the "data" folder.
 
 # 2.0 Business Assumptions
@@ -38,6 +40,8 @@ After removing useless columns for analysis:
 
 # 3.0 Solution Strategy
 
+![](imgs/)
+
 # 4.0 Insights
 
 1. Which merchant sold the most?
@@ -47,14 +51,51 @@ After removing useless columns for analysis:
 5. Which months sell the most?
 6. Which weeks sell the most?
 
+## 4.1 Top 3 Insights
+
+Which merchant sold the most?
+
+![](imgs/)
+
+What is the best selling brand?
+
+![](imgs/)
+
+Which months sell the most?
+
+![](imgs/)
+
 # 5.0 Machine Learning
+
+In the project, the method of least squares (OLS) was used, through the statsmodels library. 
+
+The method of least squares is a statistical technique used to find the best straight line that describes the relationship between two variables. He is commonly used to perform linear regression, which is the process of finding the linear relationship between an independent variable (x) and a dependent variable (y). The objective of the least squares method is to minimize the sum of squares of the differences between the observed values ​​of y and the values ​​estimated by the regression line. In other words, it seeks to find the line that best fits the observed data, minimizing the sum of squares of forecast errors.
+
+Through this method, we got the price_elasticity, price_mean, quantity_mean, intercept, slope, rsquared	and p_value of the products.
+
+![](imgs/)
+
+![](imgs/)
 
 # 6.0 Business results
 
+Here are the business results for each product:
+
+![](imgs/)
+
 # 7.0 Streamlit
+
+Development of a streamlit page capable of predicting the possible scenarios for each product after applying a discount or price increase, informing whether it was worth it or not 
 
 # 8.0 Conclusions
 
+We studied the relationship between demand and price for each product, using minimum squares method, and informed the CEO of possible outcomes following a discount or price increase.
+
 # 9.0 Lessons Learned
+
+- Development of the price elasticity concept and visualization in practice
+- Prediction data using Minimum squares method 
+- Data visualization in different scenarios (discount and price increase)
+- Possibility of agile and professional data query via Cloud Streamlit
 
 # 10.0 Next Steps
