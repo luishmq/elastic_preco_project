@@ -1,6 +1,6 @@
 # Price elasticity Project 📈
 
-![](imgs/elastic.avif)
+![](imgs/fundo.avif)
 
 Price elasticity is a fundamental concept in economics that measures the sensitivity of the quantity demanded of a good or service in response to a change in its price. It helps to understand how consumers react to price changes and is a valuable tool for businesses and governments in making economic decisions. It is calculated by dividing the percentage change in the quantity demanded by the product by the percentage change in the price of the product.
 
@@ -18,6 +18,9 @@ The results can be viewed on a page created in streamlit.
 The dataset can be found in the "data" folder.
 
 # 2.0 Business Assumptions
+
+- Many columns were useless for the analysis and were removed
+- Some NA data weren't removed, because it wouldn't make a difference
 
 ## 2.1 Data Description
 
@@ -40,7 +43,7 @@ After removing useless columns for analysis:
 
 # 3.0 Solution Strategy
 
-![](imgs/)
+![](imgs/mind_map_elastic.png)
 
 # 4.0 Insights
 
@@ -87,7 +90,9 @@ Here are the business results for each product:
 
 # 7.0 Streamlit
 
-Development of a streamlit page capable of predicting the possible scenarios for each product after applying a discount or price increase, informing whether it was worth it or not 
+Development of a streamlit page capable of predicting the possible scenarios for each product after applying a discount or price increase, informing whether it was worth it or not
+
+The analysis can be accessed through this link: https://elastic-preco-project.streamlit.app/
 
 # 8.0 Conclusions
 
@@ -99,5 +104,3 @@ We studied the relationship between demand and price for each product, using min
 - Prediction data using Minimum squares method 
 - Data visualization in different scenarios (discount and price increase)
 - Possibility of agile and professional data query via Cloud Streamlit
-
-# 10.0 Next Steps
