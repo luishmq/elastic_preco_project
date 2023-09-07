@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
-import statsmodels.api as sm
 import streamlit as st
+import statsmodels.api as sm
 
 st.set_page_config(layout='wide')
 
@@ -195,7 +195,7 @@ def gerar_relatorio_simulacao(final, op):
         texto_personalizado = f"Com um desconto de {number}% o faturamento do seu negócio AUMENTA, podendo fazer com que o faturamento potencial do seu negócio possa atingir {round(soma_faturamento_novo,2)}. Isso representa um valor de {round(diferenca_faturamento,2)} a mais do que você fatura atualmente."
     else:
         diferenca_faturamento = soma_faturamento_atual - soma_faturamento_novo
-        texto_personalizado = f"Com um desconto de {number}% o faturamento do seu negócio DIMINUI, podendo fazer com que o faturamento potencial do seu negócio possa atingir {round(soma_faturamento_novo,2)}. Isso representa um valor de {round(diferenca_faturamento,2)} a menos do que você fatura atualmente."
+        texto_personalizado = f"Com um aumento de preço de {number}% o faturamento do seu negócio DIMINUI, podendo fazer com que o faturamento potencial do seu negócio possa atingir {round(soma_faturamento_novo,2)}. Isso representa um valor de {round(diferenca_faturamento,2)} a menos do que você fatura atualmente."
 
     relatorio += f"- {texto_personalizado}\n"
     relatorio += f"- Variação percentual no faturamento: {final['variacao_percentual'].sum()}%\n"
